@@ -1,0 +1,14 @@
+{
+  "name": "sy-property-microsite",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./public/assets/app.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./public/assets/app.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0"
+  }
+}

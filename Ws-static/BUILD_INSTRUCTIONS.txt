@@ -1,0 +1,22 @@
+BUILD-BASED TAILWIND SETUP (NO FEATURES LOST)
+
+This project still works out-of-the-box because Tailwind CDN is kept.
+To switch fully to build-based Tailwind (recommended for production):
+
+1) On your local machine, open a terminal in this project folder.
+2) Install dependencies:
+   npm install
+
+3) Build Tailwind CSS:
+   npm run build
+   (or during development: npm run dev)
+
+This generates:
+   assets/app.css
+
+4) After verifying app.css looks correct, you can REMOVE the Tailwind CDN script tag from HTML pages
+   to make the site 100% build-based.
+
+Notes:
+- The Tailwind config includes your brand colors and sets ALL border radius to 0px.
+- src/input.css sets base font size to 150% and uses Roboto globally.
