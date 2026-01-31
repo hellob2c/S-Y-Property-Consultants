@@ -3,9 +3,12 @@
 @tailwind utilities;
 
 @layer base {
-  html { font-size: 150%; }
+  html {
+    font-size: 105%;
+  }
+
   body {
     font-family: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont,
-                 'Segoe UI', Arial, sans-serif;
+      'Segoe UI', Arial, sans-serif;
   }
 }
